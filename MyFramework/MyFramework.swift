@@ -8,7 +8,7 @@ public class MyFramework {
     var calculate: CalculateValue?
     
     
-    init() {
+    public init() {
     }
     
     public func getCountry() {

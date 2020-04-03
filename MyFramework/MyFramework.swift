@@ -1,10 +1,18 @@
 
 import Foundation
+import Alamofire
 
 public class MyFramework {
     
     public init() {
         
+    }
+    
+    public func getCountry() {
+        let request = AF.request("https://api.printful.com/countries")
+        request.responseJSON { (data) in
+            print(data)
+        }
     }
     
     public func add( left:Int, right:Int ) -> Int {

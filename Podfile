@@ -5,6 +5,6 @@ target 'MyFramework' do
   
   use_frameworks!
 
-  #pod 'Alamofire'
+  pod 'Alamofire', '~> 5.0'
 
 end

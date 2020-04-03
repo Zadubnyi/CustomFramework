@@ -10,7 +10,12 @@ Pod::Spec.new do |spec|
   spec.author         = { "vitalii" => "zadubniy.v@gamil.com" }
   spec.platform       = :ios, "11.0"
   spec.swift_versions = "4.2"
-  spec.source         = { :git => "https://github.com/Zadubnyi/CustomFramework.git", :tag => "#{spec.version}" }
+  spec.source         = { 
+  	:git => "https://github.com/Zadubnyi/CustomFramework.git", 
+  	:tag => "#{spec.version}" 
+  }
+
   spec.source_files  = "MyFramework"
+  spec.dependency "Alamofire"
 
 end

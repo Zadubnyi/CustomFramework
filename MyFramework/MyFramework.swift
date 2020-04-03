@@ -4,21 +4,23 @@ import Alamofire
 
 public class MyFramework {
     
-    let country: CountryList
+    var country: CountryList?
+    var calculate: CalculateValue?
     
-    init(country: CountryList) {
-        self.country = country
+    
+    init() {
     }
     
     public func getCountry() {
-        country.getCountry()
+        country!.getCountry()
     }
     
-    public func add( left:Int, right:Int ) -> Int {
-        let sum = left + right
-        print("LEFT:\(left) + RIGHT:\(right) = SUM:\(sum)")
-        return sum
+    public func calculateValue(first: Double, second: Double) {
+        calculate = CalculateValue(first: first, second: second)
+        print(calculate!)
     }
+    
+    
     
     public func subtract( left:Int, right:Int ) -> Int {
         let remainder = left - right

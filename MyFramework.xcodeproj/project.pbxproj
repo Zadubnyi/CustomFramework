@@ -11,6 +11,7 @@
 		6050A23424327D8D00E93D97 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6050A23224327D8D00E93D97 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6050A23B24327DA200E93D97 /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050A23A24327DA200E93D97 /* MyFramework.swift */; };
 		60C0EA77243781CE00B497B1 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C0EA76243781CE00B497B1 /* CountryList.swift */; };
+		60C0EA792437ACCB00B497B1 /* CalculateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C0EA782437ACCB00B497B1 /* CalculateValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6050A23324327D8D00E93D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6050A23A24327DA200E93D97 /* MyFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
 		60C0EA76243781CE00B497B1 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		60C0EA782437ACCB00B497B1 /* CalculateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateValue.swift; sourceTree = "<group>"; };
 		A7665422BD2FBCB5B7E10761 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 		CDBA7A948B1BA69D2BBBC535 /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				6050A23224327D8D00E93D97 /* MyFramework.h */,
 				6050A23324327D8D00E93D97 /* Info.plist */,
 				60C0EA76243781CE00B497B1 /* CountryList.swift */,
+				60C0EA782437ACCB00B497B1 /* CalculateValue.swift */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C0EA77243781CE00B497B1 /* CountryList.swift in Sources */,
+				60C0EA792437ACCB00B497B1 /* CalculateValue.swift in Sources */,
 				6050A23B24327DA200E93D97 /* MyFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

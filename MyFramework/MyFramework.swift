@@ -4,15 +4,14 @@ import Alamofire
 
 public class MyFramework {
     
-    public init() {
-        
+    let country: CountryList
+    
+    init(country: CountryList) {
+        self.country = country
     }
     
     public func getCountry() {
-        let request = AF.request("https://api.printful.com/countries")
-        request.responseJSON { (data) in
-            print(data)
-        }
+        country.getCountry()
     }
     
     public func add( left:Int, right:Int ) -> Int {

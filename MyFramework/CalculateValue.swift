@@ -12,7 +12,6 @@ class CalculateValue {
     }
     
     public func add() -> Double {
-        let sum = firstValue + secondValue
-        return sum
+        return firstValue + secondValue
     }
 }

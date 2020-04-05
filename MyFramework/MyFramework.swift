@@ -1,25 +1,29 @@
 
 import Foundation
-import Alamofire
+
+public protocol CalculateValueDelegate: class {
+    func calculate(first: Double, second: Double)
+}
 
 public class MyFramework {
     
-    var country: CountryList?
-    var calculate: CalculateValue?
+    //var country: CountryList?
+    private var calculate: CalculateValue!
     
+    weak var delegate: CalculateValueDelegate?
     
     public init() {
+        
     }
-    
-    public func getCountry() {
-        country!.getCountry()
-    }
+
+//    public func getCountry() {
+//        country!.getCountry()
+//    }
     
     public func calculateValue(first: Double, second: Double) {
         calculate = CalculateValue(first: first, second: second)
         print(calculate!)
     }
-    
     
     
     public func subtract( left:Int, right:Int ) -> Int {

@@ -8,12 +8,12 @@ public protocol CalculateValueDelegate: class {
 public class MyFramework {
     
     //var country: CountryList?
-    private var calculate: CalculateValue!
+    var calculate: CalculateValue!
     
     weak var delegate: CalculateValueDelegate?
     
-    public init() {
-        
+    init(calculate: CalculateValue) {
+        self.calculate = calculate
     }
 
 //    public func getCountry() {
